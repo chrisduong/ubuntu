@@ -1,12 +1,10 @@
-## Ubuntu Dockerfile
+## Ubuntu Dockerfile Fork for Precise
 
-
-This repository contains **Dockerfile** of [Ubuntu](http://www.ubuntu.com/) for [Docker](https://www.docker.com/)'s [automated build](https://registry.hub.docker.com/u/dockerfile/ubuntu/) published to the public [Docker Hub Registry](https://registry.hub.docker.com/).
 
 
 ### Base Docker Image
 
-* [ubuntu:14.04](https://registry.hub.docker.com/u/library/ubuntu/)
+* [ubuntu:12.04](https://registry.hub.docker.com/u/library/ubuntu/)
 
 
 ### Installation
@@ -20,4 +18,4 @@ This repository contains **Dockerfile** of [Ubuntu](http://www.ubuntu.com/) for 
 
 ### Usage
 
-    docker run -it --rm dockerfile/ubuntu
+    docker run -it --rm chrisduong/Dockerfile-ubuntu-12.04
